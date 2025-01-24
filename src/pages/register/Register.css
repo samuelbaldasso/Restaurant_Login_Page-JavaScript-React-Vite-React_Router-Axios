@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Increase gap for better spacing */
+  height: 100%;
+}
+
+.form label {
+  font-size: 18px; /* Reduce font size for better readability */
+  font-weight: 500; /* Add some font weight for visual hierarchy */
+  color: #333; /* Darker text color for better contrast */
+  margin-bottom: 4px; /* Add some margin for better spacing */
+}
+
+.form input {
+  padding: 12px; /* Increase padding for better usability */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 12px; /* Increase border radius for softer look */
+  width: 100%; /* Make input full-width */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.form button {
+  width: 100%; /* Make button full-width */
+  padding: 12px; /* Increase padding for better usability */
+  border: none; /* Remove border for cleaner look */
+  border-radius: 12px; /* Increase border radius for softer look */
+  background-color: #4CAF50; /* Add a nice green color for the button */
+  color: #fff; /* White text color for better contrast */
+  font-size: 18px; /* Increase font size for better readability */
+  font-weight: 600; /* Add some font weight for visual hierarchy */
+  cursor: pointer; /* Add a pointer cursor for better usability */
+  transition: background-color 0.2s ease; /* Add a nice transition effect */
+}
+
+.form button:hover {
+  background-color: #3e8e41; /* Darken the button color on hover */
+}
